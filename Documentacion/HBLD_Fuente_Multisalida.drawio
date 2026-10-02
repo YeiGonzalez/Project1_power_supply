@@ -1,0 +1,188 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="HBLD Fuente Multisalida" id="hbld1">
+    <mxGraphModel dx="1397" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=18;fontFamily=Arial;fontStyle=1;rounded=0;" value="Diagrama de Bloques de Alto Nivel (HBLD) — Fuente de alimentación" vertex="1">
+          <mxGeometry height="40" width="1420" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=11;fontFamily=Arial;rounded=0;" value="Flujo de potencia: red AC → transformador → rectificación → filtrado → bus VIN DC → convertidores DC/DC → salidas reguladas. Todas las salidas comparten GND común." vertex="1">
+          <mxGeometry height="24" width="1420" x="20" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;PROTECCIONES DE ENTRADA&lt;/b&gt;&lt;br&gt;Interruptor general&lt;br&gt;Fusible T5A&lt;br&gt;Varistor (MOV)" vertex="1">
+          <mxGeometry height="110" width="150" x="160" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;TRANSFORMADOR&lt;/b&gt;&lt;br&gt;120 V → 24 Vac&lt;br&gt;≥ 350 VA" vertex="1">
+          <mxGeometry height="90" width="130" x="340" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;RECTIFICADOR&lt;/b&gt;&lt;br&gt;Puente de diodos&lt;br&gt;≥ 15 A, ≥ 100 V" vertex="1">
+          <mxGeometry height="80" width="120" x="500" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;ETAPA DE FILTRADO&lt;/b&gt;&lt;br&gt;4 × 4700 µF / 50 V" vertex="1">
+          <mxGeometry height="110" width="130" x="660" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="" vertex="1">
+          <mxGeometry height="500" width="34" x="830" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontFamily=Arial;rounded=0;" value="&lt;b&gt;BUS VIN DC&lt;/b&gt;&lt;br&gt;≈ 26 – 37 V" vertex="1">
+          <mxGeometry height="40" width="100" x="800" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="c5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c6" value="120 VAC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" edge="1" parent="1" source="c6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c7" value="24 Vac">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" edge="1" parent="1" source="c8" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;rounded=0;" target="c9" value="VIN DC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;BUCK +12 V&lt;/b&gt;&lt;br&gt;XL4016E1 · diseño 6 A" vertex="1">
+          <mxGeometry height="70" width="200" x="920" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;PROTECCIÓN&lt;/b&gt;&lt;br&gt;Fusible / PTC 6.3 A" vertex="1">
+          <mxGeometry height="70" width="140" x="1150" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;SALIDA +12 V&lt;/b&gt;&lt;br&gt;5 A máx." vertex="1">
+          <mxGeometry height="70" width="150" x="1320" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" edge="1" parent="1" source="c9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;exitX=1;exitY=0.0900;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" target="c16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" edge="1" parent="1" source="c16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" edge="1" parent="1" source="c17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;BUCK +5 V&lt;/b&gt;&lt;br&gt;XL4016E1 · diseño 6 A" vertex="1">
+          <mxGeometry height="70" width="200" x="920" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;PROTECCIÓN&lt;/b&gt;&lt;br&gt;Fusible / PTC 6.3 A" vertex="1">
+          <mxGeometry height="70" width="140" x="1150" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;SALIDA +5 V&lt;/b&gt;&lt;br&gt;5 A máx." vertex="1">
+          <mxGeometry height="70" width="150" x="1320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" edge="1" parent="1" source="c9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;exitX=1;exitY=0.2900;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" target="c22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" edge="1" parent="1" source="c22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" edge="1" parent="1" source="c23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;BUCK +3.3 V&lt;/b&gt;&lt;br&gt;LM2678 · diseño 3.6 A" vertex="1">
+          <mxGeometry height="70" width="200" x="920" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;PROTECCIÓN&lt;/b&gt;&lt;br&gt;Fusible 4 A + TVS" vertex="1">
+          <mxGeometry height="70" width="140" x="1150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;SALIDA +3.3 V&lt;/b&gt;&lt;br&gt;3 A máx." vertex="1">
+          <mxGeometry height="70" width="150" x="1320" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" edge="1" parent="1" source="c9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;exitX=1;exitY=0.4900;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" target="c28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" edge="1" parent="1" source="c28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" edge="1" parent="1" source="c29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;INVERSOR −12 V&lt;/b&gt;&lt;br&gt;LM2596HV (buck-boost inversor)" vertex="1">
+          <mxGeometry height="70" width="200" x="920" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;PROTECCIÓN&lt;/b&gt;&lt;br&gt;Fusible 1.6 A" vertex="1">
+          <mxGeometry height="70" width="140" x="1150" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="c36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;SALIDA −12 V&lt;/b&gt;&lt;br&gt;1 A máx." vertex="1">
+          <mxGeometry height="70" width="150" x="1320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="c37" edge="1" parent="1" source="c9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;exitX=1;exitY=0.6900;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" target="c34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c38" edge="1" parent="1" source="c34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c39" edge="1" parent="1" source="c35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;BUCK AJUSTABLE&lt;/b&gt;&lt;br&gt;LM2678-ADJ + potenciómetro" vertex="1">
+          <mxGeometry height="70" width="200" x="920" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="c41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;PROTECCIÓN&lt;/b&gt;&lt;br&gt;Fusible 4 A" vertex="1">
+          <mxGeometry height="70" width="140" x="1150" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="c42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;SALIDA VARIABLE 1.25–15 V&lt;/b&gt;&lt;br&gt;3 A máx." vertex="1">
+          <mxGeometry height="70" width="150" x="1320" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="c43" edge="1" parent="1" source="c9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeWidth=2;exitX=1;exitY=0.8900;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" target="c40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c44" edge="1" parent="1" source="c40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c45" edge="1" parent="1" source="c41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=333333;fontSize=11;fontFamily=Arial;labelBackgroundColor=#ffffff;" target="c42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="&lt;b&gt;GND COMÚN&lt;/b&gt; — referencia de todas las salidas" vertex="1">
+          <mxGeometry height="34" width="550" x="920" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="c50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="" vertex="1">
+          <mxGeometry height="18" width="24" x="130" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="c51" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=11;fontFamily=Arial;rounded=0;" value="Conversión AC/DC (entrada)" vertex="1">
+          <mxGeometry height="24" width="195" x="160" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="c52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="" vertex="1">
+          <mxGeometry height="18" width="24" x="360" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="c53" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=11;fontFamily=Arial;rounded=0;" value="Bus DC" vertex="1">
+          <mxGeometry height="24" width="195" x="390" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="c54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="" vertex="1">
+          <mxGeometry height="18" width="24" x="590" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="c55" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=11;fontFamily=Arial;rounded=0;" value="Convertidor DC/DC" vertex="1">
+          <mxGeometry height="24" width="195" x="620" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="c56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="" vertex="1">
+          <mxGeometry height="18" width="24" x="820" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="c57" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=11;fontFamily=Arial;rounded=0;" value="Convertidor / salida negativa" vertex="1">
+          <mxGeometry height="24" width="195" x="850" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="c58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="" vertex="1">
+          <mxGeometry height="18" width="24" x="1050" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="c59" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=11;fontFamily=Arial;rounded=0;" value="Salida regulada" vertex="1">
+          <mxGeometry height="24" width="195" x="1080" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="c60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontFamily=Arial;" value="" vertex="1">
+          <mxGeometry height="18" width="24" x="1280" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="c61" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=11;fontFamily=Arial;rounded=0;" value="Protecciones" vertex="1">
+          <mxGeometry height="24" width="195" x="1310" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="LiYRL-V8nALgQ_lARrQk-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;b style=&quot;font-family: Arial;&quot;&gt;ENTRADA AC&lt;/b&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;120 VAC / 60 Hz&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="20" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="LiYRL-V8nALgQ_lARrQk-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="124" y="339.99999999999994" as="sourcePoint" />
+            <mxPoint x="154" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiYRL-V8nALgQ_lARrQk-10" edge="1" parent="1" source="c7" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="c8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="630" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="339.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
