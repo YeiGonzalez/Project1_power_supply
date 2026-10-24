@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=000_Hierarchical.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=000_Hierarchical.SchDoc|Designator=AC-DC Converter|SchDesignator=AC-DC Converter|FileName=100_AC-DC.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=100_AC-DC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=000_Hierarchical.SchDoc|Designator=DC-DC Converter|SchDesignator=DC-DC Converter|FileName=200_DC-DC.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=200_DC-DC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
