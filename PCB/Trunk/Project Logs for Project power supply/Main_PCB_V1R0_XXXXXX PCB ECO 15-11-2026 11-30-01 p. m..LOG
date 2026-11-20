@@ -1,0 +1,12 @@
+Added Component: Designator=24V(TP_TH_30mil)
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=24V-1
+Change Net Name : Old Net Name=NetC1_1 New Net Name=Net24V_1
+Change Net Name : Old Net Name=NetC6_1 New Net Name=Net12V_1
+Change Net Name : Old Net Name=NetC15_2 New Net Name=Net  _4
+Change Net Name : Old Net Name=NetL3_1 New Net Name=Net  _3
+Change Net Name : Old Net Name=NetR6_1 New Net Name=Net  _2
+Add Class: Class already exists: DC-DC Converter
+Add Class: Class already exists: DC-DC Converter
+Added Member To Class: ClassName=DC-DC Converter Member=Component    XL4016

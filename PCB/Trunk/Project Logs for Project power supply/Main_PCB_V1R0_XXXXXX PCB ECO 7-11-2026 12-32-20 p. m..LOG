@@ -1,0 +1,170 @@
+Added Component: Designator=F1(FUSE_RADIAL_14.20X10.00X2.50mm)
+Add component (AddParameter): Name = "Alternate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/littelfuse-inc/RGEF500/RGEF500HF-ND/5029781"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240309"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RGEF500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Sotck"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RGEF500HF-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=F2(FUSE_RADIAL_14.20X10.00X2.50mm)
+Add component (AddParameter): Name = "Alternate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/littelfuse-inc/RGEF500/RGEF500HF-ND/5029781"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240309"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RGEF500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Sotck"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RGEF500HF-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=F3(FUSE_RADIAL_12.80X8.40X2.50mm)
+Add component (AddParameter): Name = "Alternate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/littelfuse-inc/RGEF400/RGEF400HF-ND/5130245"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240309"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RGEF400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Sotck"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RGEF400HF-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=F4(FUSE_RADIAL_12.80X8.40X2.50mm)
+Add component (AddParameter): Name = "Alternate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/littelfuse-inc/RGEF400/RGEF400HF-ND/5130245"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240309"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RGEF400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Sotck"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "RGEF400HF-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=F5(1812)
+Add component (AddParameter): Name = "Alternate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0160BF2C/507-1776-1-ND/4156320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240309"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bel Fuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "0ZCG0160BF2C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Sotck"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "507-1776-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J2(CON_2x1_TH_5mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/en/products/detail/phoenix-contact/1935161/568614"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1935161"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Stock"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "277-1667-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J3(CON_2x1_TH_5mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/en/products/detail/phoenix-contact/1935161/568614"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1935161"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Stock"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "277-1667-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J4(CON_2x1_TH_5mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/en/products/detail/phoenix-contact/1935161/568614"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1935161"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Stock"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "277-1667-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J5(CON_2x1_TH_5mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/en/products/detail/phoenix-contact/1935161/568614"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1935161"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Stock"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "277-1667-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J6(CON_2x1_TH_5mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/en/products/detail/phoenix-contact/1935161/568614"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1935161"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reel Stock"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "277-1667-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=T200(TP_TH_30mil)
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Added Component: Designator=T201(TP_TH_30mil)
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Added Component: Designator=T300(TP_TH_30mil)
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Added Component: Designator=T301(TP_TH_30mil)
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Added Component: Designator=T400(TP_TH_30mil)
+Add component (AddParameter): Name = "Last modified by"; Value = "J.Jaramillo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last modified date"; Value = "20240310"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC6_1 Pin=F1-1
+Added Pin To Net: NetName=NetC11_1 Pin=F2-1
+Added Pin To Net: NetName=NetC16_1 Pin=F3-1
+Added Pin To Net: NetName=NetC20_1 Pin=F4-1
+Added Pin To Net: NetName=NetC26_2 Pin=F5-1
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J4-1
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=GND Pin=J6-1
+Added Pin To Net: NetName=NetC6_1 Pin=T200-1
+Added Pin To Net: NetName=NetC11_1 Pin=T201-1
+Added Pin To Net: NetName=NetC16_1 Pin=T300-1
+Added Pin To Net: NetName=NetC20_1 Pin=T301-1
+Added Pin To Net: NetName=NetC26_2 Pin=T400-1
+Added Pin To Net: NetName=NetF1_2 Pin=F1-2
+Added Pin To Net: NetName=NetF1_2 Pin=J2-2
+Added Net: Name=NetF1_2
+Added Pin To Net: NetName=NetF2_2 Pin=F2-2
+Added Pin To Net: NetName=NetF2_2 Pin=J3-2
+Added Net: Name=NetF2_2
+Added Pin To Net: NetName=NetF3_2 Pin=F3-2
+Added Pin To Net: NetName=NetF3_2 Pin=J4-2
+Added Net: Name=NetF3_2
+Added Pin To Net: NetName=NetF4_2 Pin=F4-2
+Added Pin To Net: NetName=NetF4_2 Pin=J5-2
+Added Net: Name=NetF4_2
+Added Pin To Net: NetName=NetF5_2 Pin=F5-2
+Added Pin To Net: NetName=NetF5_2 Pin=J6-2
+Added Net: Name=NetF5_2
+Added Class: Name=000_Hierarchical
+Add Class: Class already exists: DC-DC Converter
+Add Class: Class already exists: DC-DC Converter
+Added Member To Class: ClassName=DC-DC Converter Member=Component T300 TP_1P
+Added Member To Class: ClassName=DC-DC Converter Member=Component T301 TP_1P
