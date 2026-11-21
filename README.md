@@ -48,9 +48,12 @@ El sistema recibe energía de un transformador reductor externo de **24 VAC**, r
 
 ```text
 ├── Documentacion/                                  # Documentación técnica y diagramas del proyecto
+│   └── 000_Hierarchical.png                        # esquematico
 │   ├── Documentacion_Fuente_Multisalida.xlsx       # Requerimientos, restricciones, BOM y cálculos IPC-2221
 │   ├── HBLD_Fuente_Multisalida.drawio              # Archivo editable del diagrama de bloques de alto nivel
 │   └── HBLD_fuente_multisalida.png                 # Diagrama de bloques de alto nivel (High-Level Block Diagram)
+│   └── pcb_3d.png                                  # Imagen de la placa en 3d
+
 ├── PCB/
 │   └── Trunk/                                      # Proyecto principal de Altium Designer
 │       ├── Project Logs for Project power s.../    # Registros y reportes de compilación/ERC/DRC
